@@ -1,0 +1,126 @@
+{
+  "events": [
+    {
+      "id": "600",
+      "name": "UFC 330: Champion vs. Challenger",
+      "date": "2026-11-08T03:00Z",
+      "status": {
+        "type": {
+          "name": "STATUS_IN_PROGRESS",
+          "state": "in",
+          "completed": false,
+          "shortDetail": "In Progress",
+          "detail": "In Progress"
+        }
+      },
+      "venues": [
+        {
+          "fullName": "T-Mobile Arena"
+        }
+      ],
+      "competitions": [
+        {
+          "id": "601",
+          "type": {
+            "abbreviation": "LW",
+            "text": "Lightweight"
+          },
+          "cardSegment": {
+            "description": "Prelims"
+          },
+          "status": {
+            "period": 2,
+            "displayClock": "3:41",
+            "type": {
+              "name": "STATUS_FINAL",
+              "state": "post",
+              "completed": true,
+              "shortDetail": "Final"
+            },
+            "result": {
+              "displayName": "KO/TKO",
+              "shortDisplayName": "KO/TKO"
+            }
+          },
+          "competitors": [
+            {
+              "order": 1,
+              "winner": true,
+              "athlete": {
+                "displayName": "Alex Moreno"
+              },
+              "records": [
+                {
+                  "summary": "14-2-0"
+                }
+              ]
+            },
+            {
+              "order": 2,
+              "winner": false,
+              "athlete": {
+                "displayName": "Ben Carter"
+              },
+              "records": [
+                {
+                  "summary": "11-4-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "602",
+          "type": {
+            "abbreviation": "HW",
+            "text": "Heavyweight"
+          },
+          "cardSegment": {
+            "description": "Main Card"
+          },
+          "status": {
+            "type": {
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
+              "shortDetail": "R1, 2:10"
+            }
+          },
+          "competitors": [
+            {
+              "order": 2,
+              "athlete": {
+                "displayName": "Dmitri Volkov"
+              },
+              "records": [
+                {
+                  "summary": "20-3-0"
+                }
+              ]
+            },
+            {
+              "order": 1,
+              "athlete": {
+                "displayName": "Marcus Reed"
+              },
+              "records": [
+                {
+                  "summary": "18-1-0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "603",
+          "competitors": [
+            {
+              "athlete": {
+                "displayName": "Only One"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

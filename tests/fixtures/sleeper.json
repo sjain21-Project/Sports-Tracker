@@ -1,0 +1,78 @@
+{
+  "users": [
+    {
+      "user_id": "u1",
+      "display_name": "samyak",
+      "metadata": {
+        "team_name": "Fourth and Long"
+      }
+    },
+    {
+      "user_id": "u2",
+      "display_name": "rival",
+      "metadata": {}
+    },
+    {
+      "user_id": "u3",
+      "display_name": "third",
+      "metadata": {
+        "team_name": "Hail Mary"
+      }
+    }
+  ],
+  "rosters": [
+    {
+      "roster_id": 1,
+      "owner_id": "u1"
+    },
+    {
+      "roster_id": 2,
+      "owner_id": "u2"
+    },
+    {
+      "roster_id": 3,
+      "owner_id": "u3"
+    },
+    {
+      "roster_id": 4,
+      "owner_id": null
+    }
+  ],
+  "matchups": [
+    {
+      "roster_id": 1,
+      "matchup_id": 1,
+      "points": 112.46,
+      "custom_points": null
+    },
+    {
+      "roster_id": 2,
+      "matchup_id": 1,
+      "points": 98.1
+    },
+    {
+      "roster_id": 3,
+      "matchup_id": 2,
+      "points": 80.0,
+      "custom_points": 101.5
+    },
+    {
+      "roster_id": 4,
+      "matchup_id": 2,
+      "points": 101.5
+    },
+    {
+      "roster_id": 5,
+      "matchup_id": null,
+      "points": 50
+    }
+  ],
+  "league": {
+    "name": "Office League",
+    "season": "2026"
+  },
+  "state": {
+    "week": 9,
+    "display_week": 9
+  }
+}

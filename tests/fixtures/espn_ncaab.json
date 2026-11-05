@@ -1,0 +1,63 @@
+{
+  "events": [
+    {
+      "id": "501",
+      "date": "2026-11-05T00:00Z",
+      "competitions": [
+        {
+          "status": {
+            "type": {
+              "name": "STATUS_IN_PROGRESS",
+              "state": "in",
+              "completed": false,
+              "shortDetail": "12:40 - 1st Half",
+              "detail": "12:40 - 1st Half"
+            }
+          },
+          "competitors": [
+            {
+              "id": "150",
+              "homeAway": "home",
+              "score": "22",
+              "team": {
+                "id": "150",
+                "abbreviation": "DUKE",
+                "displayName": "Duke Blue Devils",
+                "shortDisplayName": "Duke"
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "summary": "1-0"
+                }
+              ],
+              "curatedRank": {
+                "current": 3
+              }
+            },
+            {
+              "id": "96",
+              "homeAway": "away",
+              "score": "19",
+              "team": {
+                "id": "96",
+                "abbreviation": "UK",
+                "displayName": "Kentucky Wildcats",
+                "shortDisplayName": "Kentucky"
+              },
+              "records": [
+                {
+                  "name": "overall",
+                  "summary": "1-0"
+                }
+              ],
+              "curatedRank": {
+                "current": 99
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
